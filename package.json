@@ -1,0 +1,20 @@
+{
+  "name": "data-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project for decoding a secret message",
+  "main": "dist/decodeMessage.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/decodeMessage.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "jsdom": "^25.0.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.2.2"
+  }
+}
